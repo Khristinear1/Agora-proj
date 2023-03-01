@@ -1,0 +1,27 @@
+/*Productpage style*/
+.cont {
+    padding: 1em !important;
+    margin-bottom: 4rem !important;
+    background-color: #f8f8f8 !important;
+ }
+
+
+
+.cart-container{
+    margin-top: 3rem;
+    padding: 5rem;
+    margin-bottom: 3rem;
+
+
+}
+
+.checkout {
+    padding: 1rem;
+}
+
+.seccontainer {
+    padding: 1rem;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,45 @@
+step 1 :- 
+create databse 'ass3agora_db' in phpmyadmin
+
+step 2 :-
+
+click on create table and then select sql on the top and copy and paste below code in the query.
+
+-- Table structure for table `clients`
+
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `address` varchar(200) DEFAULT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+
+
+
+-- Table structure for table `seller_db`
+--
+
+CREATE TABLE `seller_db` (
+  `id` int(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `price` decimal(10,0) NOT NULL,
+  `image` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Table structure for table `user_form`
+--
+
+CREATE TABLE `user_form` (
+  `id` int(100) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `image` varchar(100) NOT NULL,
+  `user_type` varchar(100) DEFAULT 'user'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+

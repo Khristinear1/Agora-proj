@@ -1,0 +1,27 @@
+.logo img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 20rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+img {
+    float: left;
+}
+
+.welcome {
+    margin-left: 12rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+
+.register1 {
+    margin-top: 5rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2rem;
+}
